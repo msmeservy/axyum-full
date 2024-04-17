@@ -1,0 +1,38 @@
+.site-footer {
+	text-align: center;
+	background: #133647;
+	padding: 30px 15px 30px;
+	color: #efefef;
+	font-size: 12px;
+	line-height: 22px;
+}
+
+.social-row {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 5px;
+}
+
+.social {
+	margin: 0 10px;
+}
+
+.social-row svg {
+	width: 25px;
+	height: auto;
+	fill: #efefef;
+}
+
+.social:hover {
+	transform: scale(1.05);
+}
+
+.contact a {
+	color: #fff;
+}
+
+.contact {
+	letter-spacing: 1.15px;
+	margin-bottom: 8px;
+}
+

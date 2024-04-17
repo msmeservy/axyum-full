@@ -1,0 +1,64 @@
+/* MAIN WRAP
+---------------------------------*/
+
+.internal-main {
+	padding: 50px 0;
+	min-height: 250px;
+}
+
+.internal-main a {
+	color: #555;
+}
+
+.internal-main a:hover {
+	color: #000;
+}
+
+.internal-main .container {
+	max-width: 1220px;
+}
+
+.internal-header {
+	min-height: 400px;
+	background: #112d3b;
+	display: flex;
+	align-items: center;
+	position: relative;
+	padding:150px 0 50px 0;
+}
+
+.internal-header .container {
+	max-width: 1220px;
+}
+
+.internal-header h1 {
+	color: #fff;
+	margin-bottom: 0;
+	position: relative;
+	z-index: 5;
+}
+
+.main-line {
+	width: 100%;
+	max-width: 400px;
+	height: 3px;
+	background: #fff;
+	margin: 0 0 0;
+}
+
+
+@media only screen and (min-width: 992px) {
+	
+}
+
+@media only screen and (max-width: 991px) { 
+	
+}
+
+@media only screen and (max-width: 767px) { 
+	
+}
+
+@media only screen and (max-width: 500px) { 
+	
+}

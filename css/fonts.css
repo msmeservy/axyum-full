@@ -1,0 +1,703 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-display: fallback;
+    src: url('fonts/montserrat-thin.woff2') format('woff2'),
+         url('fonts/montserrat-thin.woff') format('woff'),
+         url('fonts/montserrat-thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-display: fallback;
+    src: url('fonts/montserrat-thinitalic.woff2') format('woff2'),
+         url('fonts/montserrat-thinitalic.woff') format('woff'),
+         url('fonts/montserrat-thinitalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-display: fallback;
+    src: url('fonts/montserrat-extralight.woff2') format('woff2'),
+         url('fonts/montserrat-extralight.woff') format('woff'),
+         url('fonts/montserrat-extralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-display: fallback;
+    src: url('fonts/montserrat-extralightitalic.woff2') format('woff2'),
+         url('fonts/montserrat-extralightitalic.woff') format('woff'),
+         url('fonts/montserrat-extralightitalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-display: fallback;
+    src: url('fonts/montserrat-light.woff2') format('woff2'),
+         url('fonts/montserrat-light.woff') format('woff'),
+         url('fonts/montserrat-light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-display: fallback;
+    src: url('fonts/montserrat-lightitalic.woff2') format('woff2'),
+         url('fonts/montserrat-lightitalic.woff') format('woff'),
+         url('fonts/montserrat-lightitalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-display: fallback;
+    src: url('fonts/montserrat-regular.woff2') format('woff2'),
+         url('fonts/montserrat-regular.woff') format('woff'),
+         url('fonts/montserrat-regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-display: fallback;
+    src: url('fonts/montserrat-italic.woff2') format('woff2'),
+         url('fonts/montserrat-italic.woff') format('woff'),
+         url('fonts/montserrat-italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-display: fallback;
+    src: url('fonts/montserrat-medium.woff2') format('woff2'),
+         url('fonts/montserrat-medium.woff') format('woff'),
+         url('fonts/montserrat-medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-display: fallback;
+    src: url('fonts/montserrat-mediumitalic.woff2') format('woff2'),
+         url('fonts/montserrat-mediumitalic.woff') format('woff'),
+         url('fonts/montserrat-mediumitalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-display: fallback;
+    src: url('fonts/montserrat-semibold.woff2') format('woff2'),
+         url('fonts/montserrat-semibold.woff') format('woff'),
+         url('fonts/montserrat-semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-display: fallback;
+    src: url('fonts/montserrat-semibolditalic.woff2') format('woff2'),
+         url('fonts/montserrat-semibolditalic.woff') format('woff'),
+         url('fonts/montserrat-semibolditalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-display: fallback;
+    src: url('fonts/montserrat-bold.woff2') format('woff2'),
+         url('fonts/montserrat-bold.woff') format('woff'),
+         url('fonts/montserrat-bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-display: fallback;
+    src: url('fonts/montserrat-bolditalic.woff2') format('woff2'),
+         url('fonts/montserrat-bolditalic.woff') format('woff'),
+         url('fonts/montserrat-bolditalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-display: fallback;
+    src: url('fonts/montserrat-extrabold.woff2') format('woff2'),
+         url('fonts/montserrat-extrabold.woff') format('woff'),
+         url('fonts/montserrat-extrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-display: fallback;
+    src: url('fonts/montserrat-extrabolditalic.woff2') format('woff2'),
+         url('fonts/montserrat-extrabolditalic.woff') format('woff'),
+         url('fonts/montserrat-extrabolditalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-display: fallback;
+    src: url('fonts/montserrat-black.woff2') format('woff2'),
+         url('fonts/montserrat-black.woff') format('woff'),
+         url('fonts/montserrat-black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-display: fallback;
+    src: url('fonts/montserrat-blackitalic.woff2') format('woff2'),
+         url('fonts/montserrat-blackitalic.woff') format('woff'),
+         url('fonts/montserrat-blackitalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+	font-display: fallback;
+    src: url('fonts/Poppins-Black.woff2') format('woff2'),
+        url('fonts/Poppins-Black.woff') format('woff'),
+        url('fonts/Poppins-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+	font-display: fallback;
+    src: url('fonts/Poppins-Bold.woff2') format('woff2'),
+        url('fonts/Poppins-Bold.woff') format('woff'),
+        url('fonts/Poppins-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+	font-display: fallback;
+    src: url('fonts/Poppins-BlackItalic.woff2') format('woff2'),
+        url('fonts/Poppins-BlackItalic.woff') format('woff'),
+        url('fonts/Poppins-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+	font-display: fallback;
+    src: url('fonts/Poppins-BoldItalic.woff2') format('woff2'),
+        url('fonts/Poppins-BoldItalic.woff') format('woff'),
+        url('fonts/Poppins-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+	font-display: fallback;
+    src: url('fonts/Poppins-ExtraBoldItalic.woff2') format('woff2'),
+        url('fonts/Poppins-ExtraBoldItalic.woff') format('woff'),
+        url('fonts/Poppins-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+	font-display: fallback;
+    src: url('fonts/Poppins-ExtraBold.woff2') format('woff2'),
+        url('fonts/Poppins-ExtraBold.woff') format('woff'),
+        url('fonts/Poppins-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+	font-display: fallback;
+    src: url('fonts/Poppins-ExtraLight.woff2') format('woff2'),
+        url('fonts/Poppins-ExtraLight.woff') format('woff'),
+        url('fonts/Poppins-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+	font-display: fallback;
+    src: url('fonts/Poppins-Italic.woff2') format('woff2'),
+        url('fonts/Poppins-Italic.woff') format('woff'),
+        url('fonts/Poppins-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  
+}
+
+@font-face {
+    font-family: 'Poppins';
+	font-display: fallback;
+    src: url('fonts/Poppins-ExtraLightItalic.woff2') format('woff2'),
+        url('fonts/Poppins-ExtraLightItalic.woff') format('woff'),
+        url('fonts/Poppins-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+	font-display: fallback;
+    src: url('fonts/Poppins-Light.woff2') format('woff2'),
+        url('fonts/Poppins-Light.woff') format('woff'),
+        url('fonts/Poppins-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+	font-display: fallback;
+    src: url('fonts/Poppins-Medium.woff2') format('woff2'),
+        url('fonts/Poppins-Medium.woff') format('woff'),
+        url('fonts/Poppins-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+	font-display: fallback;
+    src: url('fonts/Poppins-MediumItalic.woff2') format('woff2'),
+        url('fonts/Poppins-MediumItalic.woff') format('woff'),
+        url('fonts/Poppins-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+	font-display: fallback;
+    src: url('fonts/Poppins-LightItalic.woff2') format('woff2'),
+        url('fonts/Poppins-LightItalic.woff') format('woff'),
+        url('fonts/Poppins-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+	font-display: fallback;
+    src: url('fonts/Poppins-SemiBold.woff2') format('woff2'),
+        url('fonts/Poppins-SemiBold.woff') format('woff'),
+        url('fonts/Poppins-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+	font-display: fallback;
+    src: url('fonts/Poppins-SemiBoldItalic.woff2') format('woff2'),
+        url('fonts/Poppins-SemiBoldItalic.woff') format('woff'),
+        url('fonts/Poppins-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+	font-display: fallback;
+    src: url('fonts/Poppins-Regular.woff2') format('woff2'),
+        url('fonts/Poppins-Regular.woff') format('woff'),
+        url('fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+	font-display: fallback;
+    src: url('fonts/Poppins-Thin.woff2') format('woff2'),
+        url('fonts/Poppins-Thin.woff') format('woff'),
+        url('fonts/Poppins-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+	font-display: fallback;
+    src: url('fonts/Poppins-ThinItalic.woff2') format('woff2'),
+        url('fonts/Poppins-ThinItalic.woff') format('woff'),
+        url('fonts/Poppins-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+
+
+@font-face {
+    font-family: 'Raleway';
+    font-display: fallback;
+    src: url('fonts/raleway-thin.woff2') format('woff2'),
+         url('fonts/raleway-thin.woff') format('woff'),
+         url('fonts/raleway-thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-display: fallback;
+    src: url('fonts/raleway-thinitalic.woff2') format('woff2'),
+         url('fonts/raleway-thinitalic.woff') format('woff'),
+         url('fonts/raleway-thinitalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-display: fallback;
+    src: url('fonts/raleway-extralight.woff2') format('woff2'),
+         url('fonts/raleway-extralight.woff') format('woff'),
+         url('fonts/raleway-extralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-display: fallback;
+    src: url('fonts/raleway-extralightitalic.woff2') format('woff2'),
+         url('fonts/raleway-extralightitalic.woff') format('woff'),
+         url('fonts/raleway-extralightitalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-display: fallback;
+    src: url('fonts/raleway-light.woff2') format('woff2'),
+         url('fonts/raleway-light.woff') format('woff'),
+         url('fonts/raleway-light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-display: fallback;
+    src: url('fonts/raleway-lightitalic.woff2') format('woff2'),
+         url('fonts/raleway-lightitalic.woff') format('woff'),
+         url('fonts/raleway-lightitalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-display: fallback;
+    src: url('fonts/raleway-regular.woff2') format('woff2'),
+         url('fonts/raleway-regular.woff') format('woff'),
+         url('fonts/raleway-regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-display: fallback;
+    src: url('fonts/raleway-italic.woff2') format('woff2'),
+         url('fonts/raleway-italic.woff') format('woff'),
+         url('fonts/raleway-italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-display: fallback;
+    src: url('fonts/raleway-medium.woff2') format('woff2'),
+         url('fonts/raleway-medium.woff') format('woff'),
+         url('fonts/raleway-medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-display: fallback;
+    src: url('fonts/raleway-mediumitalic.woff2') format('woff2'),
+         url('fonts/raleway-mediumitalic.woff') format('woff'),
+         url('fonts/raleway-mediumitalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-display: fallback;
+    src: url('fonts/raleway-semibold.woff2') format('woff2'),
+         url('fonts/raleway-semibold.woff') format('woff'),
+         url('fonts/raleway-semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-display: fallback;
+    src: url('fonts/raleway-semibolditalic.woff2') format('woff2'),
+         url('fonts/raleway-semibolditalic.woff') format('woff'),
+         url('fonts/raleway-semibolditalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-display: fallback;
+    src: url('fonts/raleway-bold.woff2') format('woff2'),
+         url('fonts/raleway-bold.woff') format('woff'),
+         url('fonts/raleway-bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-display: fallback;
+    src: url('fonts/raleway-bolditalic.woff2') format('woff2'),
+         url('fonts/raleway-bolditalic.woff') format('woff'),
+         url('fonts/raleway-bolditalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-display: fallback;
+    src: url('fonts/raleway-extrabold.woff2') format('woff2'),
+         url('fonts/raleway-extrabold.woff') format('woff'),
+         url('fonts/raleway-extrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-display: fallback;
+    src: url('fonts/raleway-extrabolditalic.woff2') format('woff2'),
+         url('fonts/raleway-extrabolditalic.woff') format('woff'),
+         url('fonts/raleway-extrabolditalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-display: fallback;
+    src: url('fonts/raleway-black.woff2') format('woff2'),
+         url('fonts/raleway-black.woff') format('woff'),
+         url('fonts/raleway-black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-display: fallback;
+    src: url('fonts/raleway-blackitalic.woff2') format('woff2'),
+         url('fonts/raleway-blackitalic.woff') format('woff'),
+         url('fonts/raleway-blackitalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    font-display: fallback;
+    src: url('fonts/oswald-bold-webfont.woff2') format('woff2'),
+		 url('fonts/oswald-bold-webfont.woff') format('woff'),
+		 url('fonts/Oswald-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    font-display: fallback;
+    src: url('fonts/oswald-light-webfont.woff2') format('woff2'),
+		 url('fonts/oswald-light-webfont.woff') format('woff'),
+		 url('fonts/Oswald-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    font-display: fallback;
+    src: url('fonts/oswald-medium-webfont.woff2') format('woff2'),
+		 url('fonts/oswald-medium-webfont.woff') format('woff'),
+		 url('fonts/Oswald-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    font-display: fallback;
+    src: url('fonts/oswald-regular-webfont.woff2') format('woff2'),
+		 url('fonts/oswald-regular-webfont.woff') format('woff'),
+		 url('fonts/Oswald-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    font-display: fallback;
+    src: url('fonts/oswald-semibold-webfont.woff2') format('woff2'),
+		 url('fonts/oswald-semibold-webfont.woff') format('woff'),
+		 url('fonts/Oswald-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Lato';
+    font-display: fallback;
+    src: url('fonts/Lato-BlackItalic.woff2') format('woff2'),
+        url('fonts/Lato-BlackItalic.woff') format('woff'),
+        url('fonts/Lato-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-display: fallback;
+    src: url('fonts/Lato-Black.woff2') format('woff2'),
+        url('fonts/Lato-Black.woff') format('woff'),
+        url('fonts/Lato-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-display: fallback;
+    src: url('fonts/Lato-BoldItalic.woff2') format('woff2'),
+        url('fonts/Lato-BoldItalic.woff') format('woff'),
+        url('fonts/Lato-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+   
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-display: fallback;
+    src: url('fonts/Lato-Bold.woff2') format('woff2'),
+        url('fonts/Lato-Bold.woff') format('woff'),
+        url('fonts/Lato-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+   
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-display: fallback;
+    src: url('fonts/Lato-Italic.woff2') format('woff2'),
+        url('fonts/Lato-Italic.woff') format('woff'),
+        url('fonts/Lato-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('fonts/Lato-Light.woff2') format('woff2'),
+        url('fonts/Lato-Light.woff') format('woff'),
+        url('fonts/Lato-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-display: fallback;
+    src: url('fonts/Lato-LightItalic.woff2') format('woff2'),
+        url('fonts/Lato-LightItalic.woff') format('woff'),
+        url('fonts/Lato-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-display: fallback;
+    src: url('fonts/Lato-Regular.woff2') format('woff2'),
+        url('fonts/Lato-Regular.woff') format('woff'),
+        url('fonts/Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
+@font-face {
+    font-family: 'Lato Hairline';
+    font-display: fallback;
+    src: url('fonts/Lato-Hairline.woff2') format('woff2'),
+        url('fonts/Lato-Hairline.woff') format('woff'),
+        url('fonts/Lato-Hairline.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    
+}
+
+@font-face {
+    font-family: 'Lato Hairline';
+    font-display: fallback;
+    src: url('fonts/Lato-HairlineItalic.woff2') format('woff2'),
+        url('fonts/Lato-HairlineItalic.woff') format('woff'),
+        url('fonts/Lato-HairlineItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    
+}
+
