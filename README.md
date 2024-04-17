@@ -9,6 +9,7 @@ This is a WordPress theme built on top of the Underscores starter theme.  I crea
 * there is a sticky desktop navigation bar already setup
 * there are css files separated out for different the sections to make coding more organized -  atf.css (above the fold), header.css, home.css, internal.css and footer.css
 * there is a built-in global custom fields section that can be accessed in the back end of WordPress.  This makes it so you can update the website content easily inside wordpress without need to access the back end of the site. (this would be sections that would normally be hard coded in the html and would require access to the back end code - see below)
+* This theme includes Bootstap for easy mobile responiveness
   
 ## intstall instructions
 If you want to install this theme do the following:
@@ -31,6 +32,14 @@ As stated above, the global custom fields can be utilized to make it easier to u
 
 ## Navigation
 When creating a menu make sure to check both boxes under display location for Primay and Mobile.  This will make sure the styles are applied
+
+## Fonts
+These are the included Fonts:
+* Montserrat
+* Poppins
+* Raleway
+* Oswald
+* Lato
 
 ## Issues in progress
 I am working on overall cleaning things up but I'm specifically working on the following:
