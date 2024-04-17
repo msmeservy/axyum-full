@@ -13,13 +13,14 @@ This is a WordPress theme built on top of the Underscores starter theme.  I crea
   
 ## intstall instructions
 If you want to install this theme do the following:
-1. download the zip file and rename it to "axyum-full"
-2. login to the dashboard of your WordPress site
-3. on the right-side menu select Appearance > Themes
-4. at the top click the "Add New Theme" button
-5. click on the "Upload Theme"
-6. find the "axyum-full" zip folder on your and click install
-7. then activate
+1. download the zip file
+2. extract the zip folder, rename it to axyum-full, zip it backup and use this zip file to install it.  I'm looking for a better solution for this.
+3. login to the dashboard of your WordPress site
+4. on the right-side menu select Appearance > Themes
+5. at the top click the "Add New Theme" button
+6. click on the "Upload Theme"
+7. find the "axyum-full" zip folder on your and click install
+8. then activate
 
 ## Global Custom fields
 As stated above, the global custom fields can be utilized to make it easier to update website content for anyone who can access the back end of WordPress.  You access this pages by doing the following:
