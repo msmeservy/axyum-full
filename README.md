@@ -14,7 +14,7 @@ This is a WordPress theme built on top of the Underscores starter theme.  I crea
 ## intstall instructions
 If you want to install this theme do the following:
 1. download the zip file
-2. extract the zip folder, rename it to axyum-full, zip it backup and use this zip file to install it.  I'm looking for a better solution for this.
+2. extract the zip folder, navigate to the outer folder. rename the inner folder to axyum-full then zip up this inner folder.  This new zip with be the theme zip you will install.  (I'm  not sure if there is a better solution for this.  I'm looking into it. But this will work.)
 3. login to the dashboard of your WordPress site
 4. on the right-side menu select Appearance > Themes
 5. at the top click the "Add New Theme" button
