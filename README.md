@@ -1,71 +1,38 @@
-[![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)
 
-_s
-===
+# Axyum Theme for WordPress
+## Axyum is a custom theme built on top of the underscores theme https://underscores.me/
 
-Hi. I'm a starter theme called `_s`, or `underscores`, if you like. I'm a theme meant for hacking so don't use me as a Parent Theme. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
+This is a WordPress theme built on top of the Underscores starter theme.  I created this theme to try to make building and using WordPress sites easier for the developer and the user.  The theme is still pretty bare bones for the developer but there is some starter code to make setup easer for menus and mobile navigation.  Here are some of the included features:
 
-My ultra-minimal CSS might make me look like theme tartare but that means less stuff to get in your way when you're designing your awesome theme. Here are some of the other more interesting things you'll find here:
+* Desktop and Mobile navigation are setup for one menu depth
+* there is a default internal page header that can be easily updated
+* there is a sticky desktop navigation bar already setup
+* there are css files separated out for different the sections to make coding more organized -  atf.css (above the fold), header.css, home.css, internal.css and footer.css
+* there is a built-in global custom fields section that can be accessed in the back end of WordPress.  This makes it so you can update the website content easily inside wordpress without need to access the back end of the site. (this would be sections that would normally be hard coded in the html and would require access to the back end code - see below)
+  
+## intstall instructions
+If you want to install this theme do the following:
+1. download the zip file and rename it to "axyum-full"
+2. login to the dashboard of your WordPress site
+3. on the right-side menu select Appearance > Themes
+4. at the top click the "Add New Theme" button
+5. click on the "Upload Theme"
+6. find the "axyum-full" zip folder on your and click install
+7. then activate
 
-* A modern workflow with a pre-made command-line interface to turn your project into a more pleasant experience.
-* A just right amount of lean, well-commented, modern, HTML5 templates.
-* A custom header implementation in `inc/custom-header.php`. Just add the code snippet found in the comments of `inc/custom-header.php` to your `header.php` template.
-* Custom template tags in `inc/template-tags.php` that keep your templates clean and neat and prevent code duplication.
-* Some small tweaks in `inc/template-functions.php` that can improve your theming experience.
-* A script at `js/navigation.js` that makes your menu a toggled dropdown on small screens (like your phone), ready for CSS artistry. It's enqueued in `functions.php`.
-* 2 sample layouts in `sass/layouts/` made using CSS Grid for a sidebar on either side of your content. Just uncomment the layout of your choice in `sass/style.scss`.
-Note: `.no-sidebar` styles are automatically loaded.
-* Smartly organized starter CSS in `style.css` that will help you to quickly get your design off the ground.
-* Full support for `WooCommerce plugin` integration with hooks in `inc/woocommerce.php`, styling override woocommerce.css with product gallery features (zoom, swipe, lightbox) enabled.
-* Licensed under GPLv2 or later. :) Use it to make something cool.
+## Global Custom fields
+As stated above, the global custom fields can be utilized to make it easier to update website content for anyone who can access the back end of WordPress.  You access this pages by doing the following:
+* click on settings and then clicking on global custom fields.  
+* I have some generic fields already build in that can be used easily.
+* A couple of the custom fields are setup in the bannerarea of the template so you can see the format.
+* To customize the global custom fields page in WordPress, Open up functions.php in the theme directory navigate down to line 266
+* Hopefully this makes for an easily editable template.
+** When adding new custom fields, make sure to add the field name down at the bottom as well in the "input" name "page_options" **
 
-Installation
----------------
+## Navigation
+When creating a menu make sure to check both boxes under display location for Primay and Mobile.  This will make sure the styles are applied
 
-### Requirements
-
-`_s` requires the following dependencies:
-
-- [Node.js](https://nodejs.org/)
-- [Composer](https://getcomposer.org/)
-
-### Quick Start
-
-Clone or download this repository, change its name to something else (like, say, `megatherium-is-awesome`), and then you'll need to do a six-step find and replace on the name in all the templates.
-
-1. Search for `'_s'` (inside single quotations) to capture the text domain and replace with: `'megatherium-is-awesome'`.
-2. Search for `_s_` to capture all the functions names and replace with: `megatherium_is_awesome_`.
-3. Search for `Text Domain: _s` in `style.css` and replace with: `Text Domain: megatherium-is-awesome`.
-4. Search for <code>&nbsp;_s</code> (with a space before it) to capture DocBlocks and replace with: <code>&nbsp;Megatherium_is_Awesome</code>.
-5. Search for `_s-` to capture prefixed handles and replace with: `megatherium-is-awesome-`.
-6. Search for `_S_` (in uppercase) to capture constants and replace with: `MEGATHERIUM_IS_AWESOME_`.
-
-Then, update the stylesheet header in `style.css`, the links in `footer.php` with your own information and rename `_s.pot` from `languages` folder to use the theme's slug. Next, update or delete this readme.
-
-### Setup
-
-To start using all the tools that come with `_s`  you need to install the necessary Node.js and Composer dependencies :
-
-```sh
-$ composer install
-$ npm install
-```
-
-### Available CLI commands
-
-`_s` comes packed with CLI commands tailored for WordPress theme development :
-
-- `composer lint:wpcs` : checks all PHP files against [PHP Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/php/).
-- `composer lint:php` : checks all PHP files for syntax errors.
-- `composer make-pot` : generates a .pot file in the `languages/` directory.
-- `npm run compile:css` : compiles SASS files to css.
-- `npm run compile:rtl` : generates an RTL stylesheet.
-- `npm run watch` : watches all SASS files and recompiles them to css when they change.
-- `npm run lint:scss` : checks all SASS files against [CSS Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/css/).
-- `npm run lint:js` : checks all JavaScript files against [JavaScript Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/javascript/).
-- `npm run bundle` : generates a .zip archive for distribution, excluding development and system files.
-
-Now you're ready to go! The next step is easy to say, but harder to do: make an awesome WordPress theme. :)
-
-Good luck!
-# axyum-theme
+## Issues in progress
+I am working on overall cleaning things up but I'm specifically working on the following:
+* updating the mobile navigation to work at depths deeper than one.
+  
